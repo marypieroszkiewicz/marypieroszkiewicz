@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-	let anchorlinks = document.querySelectorAll('a[href^="#"]')
+	let anchorlinks = document.querySelectorAll('a[href^="#"]');
 
 	for ( let item of anchorlinks) { // relitere 
 		item.addEventListener('click', (e)=> {

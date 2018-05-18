@@ -1,2 +1,2 @@
 # marypieroszkiewicz
-marypieroszkiewicz.com
+marypieroszkiewicz.com http://marypieroszkiewicz.com/
