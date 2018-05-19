@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
 			target.scrollIntoView({
 				behavior: 'smooth'
 			});
+			
 			history.pushState(null, null, hashval);
 			e.preventDefault();
 		});

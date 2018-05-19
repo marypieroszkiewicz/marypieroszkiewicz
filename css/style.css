@@ -237,6 +237,8 @@ a {
 }
 
 .item__common {
+  display: flex;
+  flex-direction: column;
   padding-bottom: 1.875rem;
 }
 
@@ -248,6 +250,17 @@ a {
   color: #867198;
   padding: .625rem 0;
 }
+
+.mary__image {
+  width: 50%;
+  align-self: center;
+  padding: .625rem;
+}
+
+.mary__image .img__circle {
+  border-radius: 50%;
+}
+
 
 .main .about span {
   color: #D9224E;
@@ -313,6 +326,11 @@ a {
     font-size: 1.875rem;
   }
 
+  .mary__image {
+    width: 28%;
+    padding: .9375rem;
+  }
+
   .main .badges .svg-container {
     width: 34%;
     padding: .3125rem;
@@ -348,6 +366,10 @@ a {
 
   .main .headline {
     font-size: 2rem;
+  }
+
+  .mary__image {
+    width: 17%;
   }
 
   .main .badges .svg-container {
