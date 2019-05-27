@@ -1,5 +1,4 @@
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
-	viewBox="0 0 232 232" enable-background="new 0 0 232 232" preserveAspectRatio="xMidYMid meet" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 232 232" enable-background="new 0 0 232 232" preserveAspectRatio="xMidYMid meet" xml:space="preserve">
 <path fill="#288773" d="M232,116c0,3.728-6.665,7.101-7.021,10.74c-0.358,3.704,5.523,8.3,4.811,11.894
 	c-0.721,3.644-7.914,5.654-8.979,9.163c-1.075,3.551,3.793,9.215,2.385,12.606c-1.42,3.423-8.866,3.98-10.603,7.222
 	c-1.747,3.262,1.915,9.769-0.136,12.829c-2.056,3.072-9.469,2.168-11.807,5.013c-2.346,2.854-0.02,9.949-2.63,12.557
@@ -32,14 +31,14 @@
 	C214.052,170.377,169.972,214.458,115.595,214.458z"/>
 <g>
 	<g>
-		
+
 			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-1161.521" y1="917.5669" x2="-1161.521" y2="917.3374" gradientTransform="matrix(448 0 0 -448 520475.5938 411134.875)">
 			<stop  offset="0" style="stop-color:#4E4E4E"/>
 			<stop  offset="1" style="stop-color:#454545"/>
 		</linearGradient>
 		<path fill="url(#SVGID_1_)" d="M69.054,65.062h89.883c3.545,0,6.419,2.875,6.419,6.42v89.884c0,3.545-2.874,6.419-6.419,6.419
 			H69.054c-3.545,0-6.42-2.874-6.42-6.419V71.481C62.634,67.936,65.508,65.062,69.054,65.062z"/>
-		
+
 			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-1160.1748" y1="921.8286" x2="-1160.1552" y2="921.9272" gradientTransform="matrix(256 0 0 -170.6667 297116.4062 157467.4531)">
 			<stop  offset="0" style="stop-color:#F8971D"/>
 			<stop  offset="0.53" style="stop-color:#F38F20"/>
