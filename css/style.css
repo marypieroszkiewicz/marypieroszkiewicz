@@ -70,6 +70,7 @@ a {
 }
 
 /* ----- HEADER ----- */
+
 .navigation {
   position: relative;
 }
@@ -84,7 +85,7 @@ a {
   cursor: pointer;
 }
 
-@media only screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
   .hamburger__container {
     position: absolute;
     z-index: 1;
@@ -152,7 +153,7 @@ a {
   font-size: 1.5rem;
 }
 
-@media only screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
   #toggle ~ .nav .nav__item {
     transform: translate(1000px, 0);
     transition: transform 0.5s ease-in-out;
@@ -213,7 +214,7 @@ a {
   background: rgba(0, 0, 0, 0.03);
 }
 
-@media only screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
   #toggle:checked ~ .nav {
     height: 30px;
     transform: translate(0, 0);
@@ -327,7 +328,7 @@ a {
   padding: 0.625rem;
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
   .main .headline {
     font-size: 1.875rem;
   }
@@ -364,7 +365,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
   .wrapper div .crane {
     width: 50%;
   }
@@ -378,7 +379,7 @@ a {
   }
 
   .main .badges .svg-container {
-    width: 13%;
+    width: 12%;
     padding: 0.625rem;
   }
 
