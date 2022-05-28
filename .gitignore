@@ -1,0 +1,10 @@
+.DS_Store
+.idea/*
+_assets/*
+.history/*
+dist/*
+node_modules/*
+.cache/*
+*.css.map
+package-lock.json
+npm-debug.log
