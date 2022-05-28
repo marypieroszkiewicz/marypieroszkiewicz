@@ -1,3 +1,3 @@
-# marypieroszkiewicz.com
+# Mary Pieroszkiewicz
 
-http://marypieroszkiewicz.com
+https://marypieroszkiewicz.com

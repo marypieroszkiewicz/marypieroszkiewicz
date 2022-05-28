@@ -1,0 +1,20 @@
+// ----- Modules -----
+@import "modules/variables";
+@import "modules/mixins";
+@import "modules/placeholders";
+@import "modules/functions";
+
+// ----- Plugins -----
+@import "plugins/rem";
+@import "plugins/normalize";
+
+// ----- Base -----
+@import "base/global";
+
+// ----- Partials -----
+@import "partials/header";
+@import "partials/main";
+@import "partials/footer";
+
+// ----- Components -----
+@import "components/particles";

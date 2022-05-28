@@ -1,0 +1,100 @@
+/* ---------------------------------------------------- */
+/* ----- MAIN ----- */
+/* ---------------------------------------------------- */
+
+.main {
+  padding: 0 5%;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: rem(30px);
+
+
+  &__title {
+    color: $rum;
+    padding: rem(10px 0);
+  }
+
+  &__picture {
+    width: 50%;
+    padding: rem(10px);
+    margin: 0 auto;
+  }
+
+  &__mary {
+    border-radius: 50%;
+  }
+
+  &__text {
+    font-size: rem(16px);
+    line-height: 1.2;
+    white-space: pre-wrap;
+    padding-top: rem(12px);
+
+    &--color {
+      color: $maroon-flush;
+      font-size: rem(18px);
+    }
+  }
+}
+
+/* ---------------------------------------------------- */
+/* ----- MEDIA QUERIES -- MAIN ----- */
+/* ---------------------------------------------------- */
+
+@media #{$mobile_land__640} {}
+
+@media #{$tablet__768} {
+
+  .about-me {
+    &__title {
+      font-size: rem(30px);
+    }
+
+    &__picture {
+      width: 33%;
+      padding: rem(15px);
+    }
+
+    &__text {
+      font-size: rem(20px);
+      line-height: 1.3;
+      padding-top: rem(14px);
+
+      &--color {
+        color: $maroon-flush;
+        font-size: rem(22px);
+      }
+    }
+  }
+}
+
+@media #{$tablet_land__1024} {
+
+  .about-me {
+    &__title {
+      font-size: rem(32px);
+    }
+
+    &__picture {
+      width: 17%;
+    }
+
+    &__text {
+      width: 60%;
+      line-height: 1.4;
+      padding-top: rem(16px);
+    }
+  }
+}
+
+@media #{$desktop__1280} {}
+
+@media #{$large__screens__1440} {}
+
+@media #{$full__screens__1600} {}
+
+/* ----- END OF MAIN ----- */

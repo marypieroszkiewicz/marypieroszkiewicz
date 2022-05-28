@@ -1,0 +1,27 @@
+{
+  "name": "marypieroszkiewicz",
+  "version": "1.0.0",
+  "description": "https://marypieroszkiewicz.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marypieroszkiewicz/marypieroszkiewicz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marypieroszkiewicz/marypieroszkiewicz/issues"
+  },
+  "devDependencies": {
+    "sass": "^1.52.1",
+    "vite": "^2.9.9"
+  },
+  "homepage": "https://github.com/marypieroszkiewicz/marypieroszkiewicz#readme"
+}

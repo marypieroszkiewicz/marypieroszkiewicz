@@ -1,154 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./images/favicon.svg">
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mary Pieroszkiewicz</title>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Mary Pieroszkiewicz</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i" rel="stylesheet">
 
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i" rel="stylesheet">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="./scss/style.scss">
+  </head>
+  <body>
+  <!-- particles -->
+  <div id="particles-js"></div>
+  <!-- end of particles -->
 
-	<!-- Style CSS -->
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
-</head>
+  <!-- header -->
+  <!--<header class="header">
+    <section class="container">
+      <div class="logo">
+        <img class="logo__crane" src="images/logo.svg">
+      </div>
+    </section>
+  </header>-->
+  <!-- end of header -->
 
-<body>
-	<div id="particles-js"></div>
-	<header class="container clearfix">
-		<nav class="navigation">
-			<input type="checkbox" id="toggle" />
-			<label class="btn" for="toggle" aria-label="Open / Close Menu">
-				<div class="hamburger hamburger__container">
-					<span class="line"></span>
-					<span class="line"></span>
-					<span class="line"></span>
-					<span class="line"></span>
-				</div>
-			</label>
-			<ul class="nav">
-				<li class="nav__item"><a class="nav__link" href="#about__me">About</a></li>
-				<li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li>
-				<li class="nav__item"><a class="nav__link" href="#contact">Contact</a></li>
-			</ul>
-		</nav>
-		<section class="wrapper">
-			<div>
-				<img class="crane" src="images/logo.svg">
-			</div>
-		</section>
-	</header>
-	<main class="container clearfix">
-		<section class="main">
-			<section id="about__me" class="item__common">
-				<h2 class="headline">About Me</h2>
-				<figure class="mary__image"><img class="img__circle" src="images/mary.jpg"></figure>
-				<h3 class="about"><span>Hello!</span> My name is <span>Mary.</span> I'm a <span>Front-End Developer</span> who loves creating great looking web products with rock-solid code. <br>Right now my main professional goal is to find a job that will give me an opportunity to deepen and improve my programming skills.</h3>
-			</section>
-			<section id="skills" class="item__common">
-				<h2 class="headline">Skills</h2>
-				<figure class="badges">
-					<div class="svg-container">
-						<img class="badges__svg" src="images/html.svg">
-					</div>
-					<div class="svg-container">
-						<img class="badges__svg" src="images/css.svg">
-					</div>
-					<div class="svg-container">
-						<img class="badges__svg" src="images/js.svg">
-					</div>
-					<div class="svg-container">
-						<img class="badges__svg" src="images/gsap.svg">
-					</div>
-					<div class="svg-container">
-						<img class="badges__svg" src="images/bem.svg">
-					</div>
-					<div class="svg-container">
-						<img class="badges__svg" src="images/rwd.svg">
-					</div>
-					<div class="svg-container">
-						<img class="badges__svg" src="images/sass.svg">
-					</div>
-					<div class="svg-container">
-						<img class="badges__svg" src="images/parcel.svg">
-					</div>
-					<div class="svg-container">
-						<img class="badges__svg" src="images/gulp.svg">
-					</div>
-					<div class="svg-container">
-						<img class="badges__svg" src="images/jekyll.svg">
-					</div>
-					<div class="svg-container">
-						<img class="badges__svg" src="images/wordpress.svg">
-					</div>
-					<div class="svg-container">
-						<img class="badges__svg" src="images/vs_code.svg">
-					</div>
-					<div class="svg-container">
-						<img class="badges__svg" src="images/webstrom.svg">
-					</div>
-					<div class="svg-container">
-						<img class="badges__svg" src="images/git.svg">
-					</div>
-					<div class="svg-container">
-						<img class="badges__svg" src="images/github.svg">
-					</div>
-					<div class="svg-container">
-						<img class="badges__svg" src="images/ai.svg">
-					</div>
-					<div class="svg-container">
-						<img class="badges__svg" src="images/ps.svg">
-					</div>
-					<div class="svg-container">
-						<img class="badges__svg" src="images/xd.svg">
-					</div>
-					<div class="svg-container">
-						<img class="badges__svg" src="images/figma.svg">
-					</div>
-					<div class="svg-container">
-						<img class="badges__svg" src="images/macos.svg">
-					</div>
-				</figure>
-			</section>
-			<section id="contact" class="item__common">
-				<h2 class="headline">Contact</h2>
-				<h3 class="name">Mary Pieroszkiewicz</h3>
-				<div class="contact__icons">
-					<img class="contact__svg" src="images/email.svg">
-					<a href="mailto:mary@pieroszkiewicz.com">mary.pieroszkiewicz@gmail.com</a>
-				</div>
-				<div class="contact__icons bag">
-					<img class="contact__svg" src="images/mobile.svg">
-					<a class="links__bag" href="tel:+48 693-324-767">+48 693-324-767</a>
-				</div>
-			</section>
-		</section>
-	</main>
-	<footer class="container clearfix">
-		<figure class="social">
-			<div class="social__icon">
-				<a href="http://marypieroszkiewicz.com/cv/CV_Maria_Pieroszkiewicz_EN.pdf" target="_blank"><img class="icon" src="images/resume.svg"></a>
-			</div>
-			<div class="social__icon">
-				<a href="https://github.com/marypieroszkiewicz/" target="_blank"><img class="icon" src="images/github_logo.svg"></a>
-			</div>
-			<div class="social__icon">
-				<a href="https://www.linkedin.com/in/marypieroszkiewicz/" target="_blank"><img class="icon" src="images/linkedin_logo.svg"></a>
-			</div>
-			<div class="social__icon">
-				<a href="https://twitter.com/mpieroszkiewicz/" target="_blank"><img class="icon" src="images/twitter_logo.svg"></a>
-			</div>
-			<div class="social__icon">
-				<a href="https://www.facebook.com/mary.pieroszkiewicz" target="_blank"><img class="icon" src="images/facebook_logo.svg"></a>
-			</div>
-		</figure>
-	</footer>
-</body>
-<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-<script src="http://vincentgarreau.com/particles.js/particles.js"></script>
-<script src='http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
-<script src="js/particles.js"></script>
-<script src="js/app.js"></script>
+  <!-- main -->
+  <main class="main">
+    <section class="container">
+      <div class="about-me">
+        <h2 class="about-me__title">About Me</h2>
+        <figure class="about-me__picture">
+          <img class="about-me__mary" src="images/mary.jpg">
+        </figure>
+        <h3 class="about-me__text"><span class="about-me__text--color">Hello,</span> My name is <span class="about-me__text--color">Mary.</span> I'm an enthusiast of <span class="about-me__text--color">Agile</span> approach and very passionate about this working style, new technologies and innovation. I am a <span class="about-me__text--color">Scrum Master</span> with growing experience, with enough empathy, an open mind and solid technical background over 10 years of experience in IT as a Front-End Developer working with and within cross-functional self-organizing teams. I feel great in teamwork - I can support others in spotting impediments and finding solutions, ask questions that lead to discovering the right answers, build an inspiring atmosphere and relationships in the team. Impact on the returning business, through open communication, and good relationship with customers.</h3>
+      </div>
+    </section>
+  </main>
+  <!-- end of main -->
 
+  <!-- footer -->
+  <footer class="footer">
+    <section class="container">
+      <div class="contact">
+        <h2 class="contact__title">Contact</h2>
+        <h3 class="contact__name">Mary Pieroszkiewicz</h3>
+        <div class="contact__icon">
+          <figure class="contact__icon-item">
+            <img class="contact__icon-img" src="images/email.svg">
+            <a class="contact__icon-link" href="mailto:mary@pieroszkiewicz.com">mary.pieroszkiewicz@gmail.com</a>
+          </figure>
+          <figure class="contact__icon-item contact__icon-item--bag">
+            <img class="contact__icon-img" src="images/mobile.svg">
+            <a class="contact__icon-link contact__icon-link--bag" href="tel:+48 693-324-767">+48 693-324-767</a>
+          </figure>
+        </div>
+      </div>
+
+      <div class="social">
+        <figure class="social__item">
+          <a class="social__link" href="https://marypieroszkiewicz.com/cv/CV_Maria_Pieroszkiewicz_EN.pdf" target="_blank">
+            <img class="social__icon" src="images/resume.svg"></a>
+        </figure>
+        <figure class="social__item">
+          <a class="social__link" href="https://github.com/marypieroszkiewicz/" target="_blank"><img class="social__icon" src="images/github_logo.svg"></a>
+        </figure>
+        <figure class="social__item">
+          <a class="social__link" href="https://www.linkedin.com/in/marypieroszkiewicz/" target="_blank"><img class="social__icon" src="images/linkedin_logo.svg"></a>
+        </figure>
+        <figure class="social__item">
+          <a class="social__link" href="https://twitter.com/mpieroszkiewicz/" target="_blank"><img class="social__icon" src="images/twitter_logo.svg"></a>
+        </figure>
+        <figure class="social__item">
+          <a class="social__link" href="https://www.facebook.com/mary.pieroszkiewicz" target="_blank"><img class="social__icon" src="images/facebook_logo.svg"></a>
+        </figure>
+      </div>
+    </section>
+  </footer>
+  <!-- end of footer -->
+
+  <!-- JS  Scripts -->
+  <script src="https://vincentgarreau.com/particles.js/particles.js"></script>
+  <script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
+  <script src="./js/particles.js"></script>
+  <script type="module" src="./js/main.js"></script>
+  </body>
 </html>
